@@ -1,0 +1,47 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+.me-auto{
+    margin-right: 0!important;
+    margin-left: auto;
+}
+
+.icons{
+    margin-right:10px
+}
+
+.aboutSection{
+    height:100vh
+}
+
+.portfolioSection{
+    height: 100vh
+}
+
+#aboutImage{
+    border: 5px;
+    border-style: solid;
+}
+
+.portfolioImg{
+    margin-top: 50px;;    
+    -webkit-transition: -webkit-transform 0.2s;
+    transition: transform 0.2s;
+}
+
+.portfolioImg:hover{
+    -webkit-transform: scale(1.7) rotate(0.01deg);
+    transform: scale(1.7) rotate(0.01deg);
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .landingMain{
+    height: 100vh
+  }
