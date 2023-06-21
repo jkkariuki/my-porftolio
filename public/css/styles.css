@@ -19,9 +19,10 @@ html {
     height:100vh
 }
 
+button{background-color:white!important}
 
 .navBar{
-    background-color: #F4976C!important;
+    background-color: #303c6c!important;
     padding:30px
 }
 
@@ -40,6 +41,7 @@ html {
 
 #portfolioImg{
     border: 5px #F4976C;
+    border-radius: 25px;
     border-style: solid;
     
 }
@@ -79,4 +81,18 @@ hr {
     text-align: justify;
   }
 
+  h1, h2{
+    color:#F4976C
+  }
+  
+  
+  .footer{
+    background-color: #303c6c;
+    padding: 30px;
+    text-align: center;
+  }
+
+  .footerSpan{
+    color: white!important
+  }
   
