@@ -13,10 +13,10 @@ function About() {
       class="row flex-lg-row align-items-center g-5 py-5 aboutSection"
       id="aboutSection"
     >
-      <div class="col-10 col-sm-8 col-lg-4">
+      <div class="col-10 col-sm-8 col-lg-4 mainContent">
         <ImageBlock id={imageId} src={image} />
       </div>
-      <div class="col-lg-8">
+      <div class="col-lg-8 mainContent">
         <h4>About Me</h4>
         <h2 class="display-7 fw-bold lh-1 mb-3">
           A web development enthusiast based in the NYC/NJ area

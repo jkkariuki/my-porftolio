@@ -17,7 +17,7 @@ function Portfolio() {
         class="row flex-lg-row align-items-center g-5 py-5 portfolioSection"
         id="portfolioSection"
       >
-        <div class="col-lg-7">
+        <div class="col-lg-7 ">
           <h4>E-Commerce Site</h4>
 
           <div>
