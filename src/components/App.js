@@ -8,8 +8,9 @@ import Footer from "./Footer";
 function App() {
   return (
     <div>
+      {" "}
+      <Navigation />
       <div className="App">
-        <Navigation />
         <div class="container col-xxl-8 px-4 py-5">
           <Landing />
           <hr />

@@ -6,15 +6,23 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 
 function Navigation() {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar className="navBar" bg="light" expand="lg">
       <Container>
-        <Navbar.Brand href="#home">James Kariuki</Navbar.Brand>
+        <Navbar.Brand className="navText" href="#home">
+          JKCodes
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#aboutSection">About Me</Nav.Link>
-            <Nav.Link href="#portfolioSection">Projects</Nav.Link>
+          <Nav className=" me-auto">
+            <Nav.Link className="navText" href="#home">
+              Home
+            </Nav.Link>
+            <Nav.Link className="navText" href="#aboutSection">
+              About Me
+            </Nav.Link>
+            <Nav.Link className="navText" href="#portfolioSection">
+              Projects
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

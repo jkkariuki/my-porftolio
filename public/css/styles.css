@@ -2,6 +2,10 @@ html {
     scroll-behavior: smooth;
   }
   
+  body{
+    color:#303c6c;
+
+  }
 .me-auto{
     margin-right: 0!important;
     margin-left: auto;
@@ -15,24 +19,41 @@ html {
     height:100vh
 }
 
-.portfolioSection{
-    /* height: 150vh */
+
+.navBar{
+    background-color: #F4976C!important;
+    padding:30px
 }
 
+.navText{
+    color: white!important;
+    font-weight: bolder;
+}
+
+.icons{
+    color:#F4976C
+}
 #aboutImage{
-    border: 5px;
+    border: 5px #F4976C;
     border-style: solid;
 }
 
-.portfolioImg{
+#portfolioImg{
+    border: 5px #F4976C;
+    border-style: solid;
+    
+}
+
+.portfolioImgDiv{
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto; 
     -webkit-transition: -webkit-transform 0.2s;
     transition: transform 0.2s;
+  
 }
 
-.portfolioImg:hover{
+.portfolioImgDiv:hover{
     -webkit-transform: scale(1.7) rotate(0.01deg);
     transform: scale(1.7) rotate(0.01deg);
 }

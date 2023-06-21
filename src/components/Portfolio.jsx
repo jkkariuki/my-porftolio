@@ -42,19 +42,18 @@ function Portfolio() {
                 className="icons"
                 icon={faLaptopCode}
                 size="2x"
-              />
-              Live Demo{" "}
+              />{" "}
             </a>
           </div>
         </div>
-        <div class="col-10 col-sm-8 col-lg-5 portfolioImg">
-          <ImageBlock className="portfolioImg" src={image[1]} />
+        <div class="col-10 col-sm-8 col-lg-5 portfolioImgDiv">
+          <ImageBlock id="portfolioImg" src={image[1]} />
         </div>
 
         <hr />
 
-        <div class="col-10 col-sm-8 col-lg-5 portfolioImg">
-          <ImageBlock className="portfolioImg" src={image[0]} />
+        <div class="col-10 col-sm-8 col-lg-5 portfolioImgDiv">
+          <ImageBlock id="portfolioImg" src={image[0]} />
         </div>
         <div class="col-lg-7">
           <h4>Recipe App</h4>
@@ -81,8 +80,7 @@ function Portfolio() {
                 className="icons"
                 icon={faLaptopCode}
                 size="2x"
-              />
-              Live Demo{" "}
+              />{" "}
             </a>
           </div>
         </div>

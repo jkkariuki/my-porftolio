@@ -12,7 +12,7 @@ import {
 const image = "/imgs/Headshot.jpg";
 
 const leadText =
-  "Thanks for visiting my page! I'm James Kariuki. A passionate Front-end React Developer. Based in the New York/New Jersey area.";
+  "I'm James Kariuki. Thanks for visiting my page! I'm a passionate Frontend Developer based in the New York/New Jersey area.";
 function Landing() {
   return (
     <div class="row flex-lg-row-reverse align-items-center g-5 py-5 landingMain">

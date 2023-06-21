@@ -17,9 +17,8 @@ function About() {
         <ImageBlock id={imageId} src={image} />
       </div>
       <div class="col-lg-8 mainContent">
-        <h4>About Me</h4>
         <h2 class="display-7 fw-bold lh-1 mb-3">
-          A web development enthusiast based in the NYC/NJ area
+          A Web Development Enthusiast
         </h2>
 
         <TextBlock mainText={aboutMe} />
