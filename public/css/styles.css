@@ -16,7 +16,7 @@ html {
 }
 
 .aboutSection{
-    height:100vh
+    height:80vh
 }
 
 button{background-color:white!important}
@@ -24,6 +24,10 @@ button{background-color:white!important}
 .navBar{
     background-color: #303c6c!important;
     padding:30px
+}
+
+.project{
+  height: 80vh
 }
 
 .navText{
@@ -68,7 +72,7 @@ hr {
   }
 
   .landingMain{
-    height: 100vh
+    height: 80vh
   }
 
   .mainContent{

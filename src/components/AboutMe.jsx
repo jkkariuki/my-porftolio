@@ -10,7 +10,7 @@ const aboutMe =
 function About() {
   return (
     <div
-      class="row flex-lg-row align-items-center g-5 py-5 aboutSection"
+      class="container row flex-lg-row align-items-center g-5 py-5 aboutSection"
       id="aboutSection"
     >
       <div class="col-10 col-sm-8 col-lg-4 mainContent">

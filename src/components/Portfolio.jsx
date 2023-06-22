@@ -6,12 +6,16 @@ import { faGithubSquare } from "@fortawesome/free-brands-svg-icons";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 
 function Portfolio() {
-  const image = ["/imgs/Screenshot (6).png", "/imgs/Jamazon.png"];
+  const image = [
+    "/imgs/Screenshot (6).png",
+    "/imgs/Jamazon.png",
+    "/imgs/mytube1.png",
+  ];
   const imageId = "aboutImage";
   const aboutMe =
     "As a junior developer I possess strong skills with tools such as HTML, CSS, Javascript, & React. I excell in creating & maintaining responsive websites with the aim of offering a smooth user experience. Through writing clean and optimized code my user interfaces are dynamic and engaging. I count myself great team player who thrives in collaborating with cross-functional teams to produce excellent results";
   return (
-    <div>
+    <div className="container projects">
       <h1>Projects</h1>
       <div
         class="row flex-lg-row align-items-center g-5 py-5 portfolioSection"
@@ -83,6 +87,35 @@ function Portfolio() {
               />{" "}
             </a>
           </div>
+        </div>
+        <hr />
+        <div class="col-lg-7 ">
+          <h4>Video Catalog App</h4>
+
+          <div>
+            <p class="lead">
+              This app is basic catalog of some of my favorite youtube videos
+              from this year. Users can filter videos by category. Built with
+              NodeJS, React, and Bootstrap.
+            </p>
+            <a href="https://github.com/jkkariuki/mytube">
+              <FontAwesomeIcon
+                className="icons"
+                icon={faGithubSquare}
+                size="2x"
+              />
+            </a>
+            <a href="https://jk-mytube-7b92d9d44b90.herokuapp.com/">
+              <FontAwesomeIcon
+                className="icons"
+                icon={faLaptopCode}
+                size="2x"
+              />{" "}
+            </a>
+          </div>
+        </div>
+        <div class="col-10 col-sm-8 col-lg-5 portfolioImgDiv">
+          <ImageBlock id="portfolioImg" src={image[2]} />
         </div>
       </div>
     </div>

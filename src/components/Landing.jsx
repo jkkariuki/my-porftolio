@@ -15,7 +15,7 @@ const leadText =
   "I'm James Kariuki. Thanks for visiting my page! I'm a passionate Frontend Developer based in the New York/New Jersey area.";
 function Landing() {
   return (
-    <div class="row flex-lg-row-reverse align-items-center g-5 py-5 landingMain">
+    <div class="container row flex-lg-row-reverse align-items-center g-5 py-5 landingMain">
       <div class="col-10 col-sm-8 col-lg-6 mainContent">
         <ImageBlock src={image} />
       </div>
