@@ -119,38 +119,6 @@ function Portfolio() {
           <ImageBlock id="portfolioImg" src={image[5]} />
         </div>
         <hr />
-
-        <div class="col-10 col-sm-8 col-lg-5 portfolioImgDiv">
-          <ImageBlock id="portfolioImg" src={image[3]} />
-        </div>
-        <div class="col-lg-7">
-          <h4>News App</h4>
-
-          <div>
-            <p class="lead">
-              This is a simple news site with articles being sourced from
-              NewsApi.org. The site also uses the Open Weather Api in conjuction
-              with the Javascript API navigator.geolocation to get the user's
-              local weather data. User must allow access to their location for
-              the this feature to work. Coming Soon Search articles by keyword.
-              Full Weather details and forecasts page
-            </p>
-            <a href="https://github.com/jkkariuki/News-App">
-              <FontAwesomeIcon
-                className="icons"
-                icon={faGithubSquare}
-                size="2x"
-              />
-            </a>
-            <a href="https://weather-app-7z6i.onrender.com">
-              <FontAwesomeIcon
-                className="icons"
-                icon={faLaptopCode}
-                size="2x"
-              />{" "}
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
