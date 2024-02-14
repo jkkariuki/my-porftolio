@@ -11,6 +11,8 @@ function Portfolio() {
     "/imgs/Jamazon.png",
     "/imgs/mytube1.png",
     "/imgs/newsAppImg.png",
+    "/imgs/weatherAppImg.png",
+    "/imgs/watchShopImg.png",
   ];
   const imageId = "aboutImage";
   const aboutMe =
@@ -42,7 +44,7 @@ function Portfolio() {
                 size="2x"
               />
             </a>
-            <a href="https://jk-ecommerce-app.herokuapp.com/">
+            <a href="https://ecommerce-rb26.onrender.com/">
               <FontAwesomeIcon
                 className="icons"
                 icon={faLaptopCode}
@@ -58,29 +60,26 @@ function Portfolio() {
         <hr />
 
         <div class="col-10 col-sm-8 col-lg-5 portfolioImgDiv">
-          <ImageBlock id="portfolioImg" src={image[0]} />
+          <ImageBlock id="portfolioImg" src={image[4]} />
         </div>
         <div class="col-lg-7">
-          <h4>Recipe App</h4>
+          <h4>Weather App</h4>
 
           <div>
             <p class="lead">
-              This application was built with NodeJS, React and Material-UI.
-              This app uses the Edamam API which allows users access to search
-              over 2.3 million recipes across various parameters. Browse Recipes
-              by name of dish(i.e. Lasagna, Chicken Curry) or by specific
-              ingredients (i.e. onions, salt, pepper ). Users can enter
-              multiple(comma seperated) ingredients in a single search. Users
-              can save recipes as a "favorite" as well as delete favorites.
+              This application was developed using React.js. This app uses the
+              weatherapi.com API which provides access to free weather and geo
+              data via a JSON/XML restful API. Users can access real-time
+              wheater anywhere in the world.
             </p>
-            <a href="https://github.com/jkkariuki/recipe-app">
+            <a href="https://github.com/jkkariuki/weather-app">
               <FontAwesomeIcon
                 className="icons"
                 icon={faGithubSquare}
                 size="2x"
               />
             </a>
-            <a href="https://jk-recipe-app-1096155fe241.herokuapp.com/">
+            <a href="https://weather-app-7z6i.onrender.com">
               <FontAwesomeIcon
                 className="icons"
                 icon={faLaptopCode}
@@ -91,22 +90,23 @@ function Portfolio() {
         </div>
         <hr />
         <div class="col-lg-7 ">
-          <h4>Video Catalog App</h4>
+          <h4>E-Commerce App</h4>
 
           <div>
             <p class="lead">
-              This app is basic catalog of some of my favorite youtube videos
-              from this year. Users can filter videos by category. Built with
-              NodeJS, React, and Bootstrap.
+              Fully funtional MERN stack e-commerce website with payment
+              integration via Stipe Checkout to complete test orders. This
+              application uses MongoDB for data storage and JSON Web Token for
+              user authentication.
             </p>
-            <a href="https://github.com/jkkariuki/mytube">
+            <a href="https://github.com/jkkariuki/watch-shop-react">
               <FontAwesomeIcon
                 className="icons"
                 icon={faGithubSquare}
                 size="2x"
               />
             </a>
-            <a href="https://jk-mytube-7b92d9d44b90.herokuapp.com/">
+            <a href="https://watch-shop-react2.onrender.com/">
               <FontAwesomeIcon
                 className="icons"
                 icon={faLaptopCode}
@@ -116,7 +116,7 @@ function Portfolio() {
           </div>
         </div>
         <div class="col-10 col-sm-8 col-lg-5 portfolioImgDiv">
-          <ImageBlock id="portfolioImg" src={image[2]} />
+          <ImageBlock id="portfolioImg" src={image[5]} />
         </div>
         <hr />
 
@@ -142,7 +142,7 @@ function Portfolio() {
                 size="2x"
               />
             </a>
-            <a href="https://jk-newsapp-c6afecd0057f.herokuapp.com">
+            <a href="https://weather-app-7z6i.onrender.com">
               <FontAwesomeIcon
                 className="icons"
                 icon={faLaptopCode}

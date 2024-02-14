@@ -5,7 +5,7 @@ import TextBlock from "./TextBlock";
 const image = "/imgs/ResponsiveDesignImg.png";
 const imageId = "aboutImage";
 const aboutMe =
-  "As a junior developer I possess strong skills with tools such as HTML, CSS, Javascript, & React. I excell in creating & maintaining responsive websites with the aim of offering a smooth user experience. Through writing clean and optimized code my user interfaces are dynamic and engaging. I consider myself a true team player who thrives in collaborating with cross-functional teams to produce excellent results";
+  "As a web developer, I possess strong skills with tools such as HTML, CSS, Javascript, & React. I excell in creating & maintaining responsive websites with the aim of offering a smooth user experience. Through writing clean and optimized code my user interfaces are dynamic and engaging. I consider myself a true team player who thrives in collaborating with cross-functional teams to produce excellent results";
 
 function About() {
   return (
